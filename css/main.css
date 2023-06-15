@@ -58,6 +58,7 @@ section p {
     font-family: "goldich", sans-serif;
     font-weight: 800;
     font-style: normal;
+
 }
 
 /* ---End of General Styles--- */
@@ -109,8 +110,6 @@ width: 100%;
 }
 
 .flexbox-footer-mobile {
-    background-color: #ffffff;
-    color: black;
     padding: 20px;
     text-align: center;
     width: 120px;
