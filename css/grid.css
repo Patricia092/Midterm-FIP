@@ -30,7 +30,7 @@ html {
 }
 
 .box {
-  background-color: #A1A1A1;
+  background-color: #0A284B;
   color: white;
   border-radius: 5px;
   padding: 20px;
@@ -65,10 +65,7 @@ html {
   height: 380px;
 }
 
-.contact-form {
-  height: 410px;
-  margin: 20px;
-}
+
 
 .recipe{ 
   height: 380px;
@@ -215,10 +212,7 @@ html {
     font-size: 22px;
   }
 
-  .contact-form {
-    font-size: 22px;
-    height: 500px;
-  }
+  
 
   .footer {
     font-size: 22px;
@@ -430,7 +424,8 @@ html {
 
 
   .title-desktop {
-    font-size: 22px;
+    font-size: 32px;
+    color: #E3DDCF;
   }
 
   .hero {
@@ -449,10 +444,7 @@ html {
     height: 450px;
   }
 
-  .contact-form {
-    height: 500px;
-    margin: 5px;
-  }
+  
 
   .footer {
     font-size: 22px;
@@ -685,11 +677,6 @@ html {
     font-size: 32px;
   }
 
-  .contact-form {
-    height: 500px;
-    margin: 5px;
-    font-size: 32px;
-  }
 
   .footer {
     font-size: 32px;

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0eab0f8aa6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/ram5qzb.css">
     <title>Zima</title>
 </head>
 
@@ -17,14 +19,17 @@
             <p>Logo</p>
         </div>
         <nav class="col-start-4 col-end-4 m-col-start-11 m-col-end-13 l-col-span-10 xl-col-span-10 box">
-            <p class="mobile">Nav</p>
-            <p class="tablet">Nav</p>
             <div class="flex-container-header desktop">
-                <div class="flexbox-header desktop">text</div>
-                <div class="flexbox-header desktop"><a href="products.html">Products</a></div>
-                <div class="flexbox-header desktop">text</div>
-                <div class="flexbox-header desktop">text</div>
-                <div class="flexbox-header desktop icons">Icons</div>
+                <div class="flexbox-header desktop itens">Home</div>
+                <div class="flexbox-header desktop itens">About Us</div>
+                <div class="flexbox-header desktop itens"><a href="products.html">Products</a></div>
+                <div class="flexbox-header desktop itens">Recipes</div>
+                <div class="flexbox-header desktop icons">
+                    <i class="fa-solid fa-magnifying-glass icons-space"></i>
+                    <i class="fa-solid fa-user icons-space"></i>
+                    <i class="fa-solid fa-cart-shopping icons-space"></i>
+
+                </div>
             </div>
         </nav>
     </header>
@@ -38,7 +43,7 @@
         <section class="grid-con flavors-color">
             <h2 class="hidden">Flavors Section</h2>
             <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                <h3 class="title-desktop">Flavors</h3>
+                <h3 class="title-desktop title">Featured Flavors</h3>
             </div>
             <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6 box flavors">
                 <p>Image of Flavor 1</p>
@@ -68,23 +73,35 @@
                 <h3>Image and text (ABOUT US)</h3>
             </div>
         </section>
-        <section class="grid-con">
+        <section class="grid-con" id="contact-form">
             <h2 class="hidden">Contact Form Section</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                <h3>Contact Form</h3>
+            <div class="col-span-4 m-col-span-12 l-col-span-6 xl-col-span-6  desktop">
+                <section id="contact-text" class="contact-text-style">
+                    <h3 class="title">We'd Love to Hear From You!</h3>
+                    <p>Please, contact us if you have any questions, comments, or concerns... </p>
+                </section>
             </div>
-            <div class="col-span-4 m-col-span-12 l-col-span-6 xl-col-span-6 box desktop contact-form">
-                <h3>Text Contact Us and Image</h3>
-            </div>
-            <div class="col-span-4 m-col-start-3 m-col-end-11 l-col-span-6 xl-col-span-6 box contact-form">
-                <h3>Contact Form</h3>
+            <div class="col-span-4 m-col-start-3 m-col-end-11 l-col-span-6 xl-col-span-6">
+                <h3 class="hidden">Contact Us Form</h3>
+                <section id="contact-us" class="contact-us-style">
+                    <form method="POST">
+                        <label for="fname">Name*</label>
+                        <input name="fullName" type="text" id="fname" placeholder="Your full name">
+                        <label for="email">Email*</label>
+                        <input name="email" type="email" id="email" required placeholder="Your Email address">
+                        <label for="phone">Phone*</label>
+                        <input name="phone" id="phone" type="text" required placeholder="Your phone number">
+                        <label for="comment">Comment*</label>
+                        <textarea name="msg" id="comment" placeholder="Your Comment"></textarea>
+                        <input name="submit" type="submit" value="SUBMIT">
+                    </form>
+                </section>
             </div>
         </section>
     </main>
     <footer class="grid-con">
         <h2 class="hidden">Footer</h2>
         <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box footer">
-            <p>FOOTER</p>
             <div class="flex-container-footer-mobile">
                 <div class="flexbox-footer-mobile mobile">text</div>
             </div>
@@ -95,10 +112,33 @@
                 <div class="flexbox-footer-m-l-xl tablet">text</div>
             </div>
             <div class="flex-container-footer-m-l-xl">
-                <div class="flexbox-footer-m-l-xl desktop">text</div>
-                <div class="flexbox-footer-m-l-xl desktop">text</div>
-                <div class="flexbox-footer-m-l-xl desktop">text</div>
-                <div class="flexbox-footer-m-l-xl desktop">text</div>
+                <div class="flexbox-footer-m-l-xl desktop">Logo</div>
+                <div class="flexbox-footer-m-l-xl desktop title">
+                    <p>Facilisis<br>
+                        Magna<br>
+                        Etiam <br>
+                        tempor<br>
+                        orci
+                    </p>
+                </div>
+                <div class="flexbox-footer-m-l-xl desktop title">
+                    <p>
+                        Sed ut<br>
+                        perspiciatis<br>
+                        unde omnis<br>
+                        iste natus<br>
+                        error
+                    </p>
+                </div>
+                <div class="flexbox-footer-m-l-xl desktop title">
+                    <p>
+                        Consectetur<br>
+                        Adipiscing elit<br>
+                        Nam in<br>
+                        Augue eget<br>
+                        Turpis dapibus
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
