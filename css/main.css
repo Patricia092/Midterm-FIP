@@ -65,9 +65,27 @@ section p {
 /* 2. Flexbox Items */
 
 
-.hero-img img {
-    width: 100%;
+.hero{
+    margin: 0 0;
 }
+
+.hero-img img{
+width: 100%;
+}
+
+.hero-img {
+    display: grid;
+    grid-column: span 2;
+    margin-bottom: 1em;
+}
+
+.hero-img > * {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+/* above hero */
 
 .flex-container-header {
     margin: 0 auto;
