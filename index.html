@@ -13,32 +13,41 @@
 
 <body>
     <h1 class="hidden">Zima</h1>
-    <header class="grid-con">
-        <h2 class="hidden">Header</h2>
-        <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-4 l-col-span-2 xl-col-span-2 box">
-            <p>Logo</p>
-        </div>
-        <nav class="col-start-4 col-end-4 m-col-start-11 m-col-end-13 l-col-span-10 xl-col-span-10 box">
-            <div class="flex-container-header desktop">
-                <div class="flexbox-header desktop itens">Home</div>
-                <div class="flexbox-header desktop itens">About Us</div>
-                <div class="flexbox-header desktop itens"><a href="products.html">Products</a></div>
-                <div class="flexbox-header desktop itens">Recipes</div>
-                <div class="flexbox-header desktop icons">
-                    <i class="fa-solid fa-magnifying-glass icons-space"></i>
-                    <i class="fa-solid fa-user icons-space"></i>
-                    <i class="fa-solid fa-cart-shopping icons-space"></i>
-
-                </div>
+    <header>
+        <div class="grid-con">
+            <h2 class="hidden">Header</h2>
+            <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-4 l-col-span-2 xl-col-span-2 box">
+                <p>Logo</p>
             </div>
-        </nav>
+            <nav class="col-start-4 col-end-4 m-col-start-11 m-col-end-13 l-col-span-10 xl-col-span-10 box">
+                <div class="flex-container-header desktop">
+                    <div class="flexbox-header desktop itens">Home</div>
+                    <div class="flexbox-header desktop itens">About Us</div>
+                    <div class="flexbox-header desktop itens"><a href="products.html">Products</a></div>
+                    <div class="flexbox-header desktop itens">Recipes</div>
+                    <div class="flexbox-header desktop icons">
+                        <i class="fa-solid fa-magnifying-glass icons-space"></i>
+                        <i class="fa-solid fa-user icons-space"></i>
+                        <i class="fa-solid fa-cart-shopping icons-space"></i>
+    
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
     </header>
     <main>
-        <section class="grid-con">
-            <h2 class="hidden">Hero Slider Section</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box hero">
-                <p>Hero Slider</p>
+        <section class="hero">
+            <div class="hero-img">
+                <picture>
+                    <source media="(min-width:1200px)" srcset="images/desk_blue-label.png">
+                    <source media="(min-width:768px)" srcset="images/tab_blue-label.png">
+                    <source media="(min-width:900px)" srcset="images/space_blue-label.png">
+                    <source media="(min-width:510px)" srcset="images/mob_blue_label.png">
+                    <img src="images/mob_blue_label.png" alt="Placeholder image">
+                </picture>
             </div>
+
         </section>
         <section class="grid-con flavors-color">
             <h2 class="hidden">Flavors Section</h2>
@@ -58,20 +67,33 @@
                 <p>Image of Flavor 4</p>
             </div>
         </section>
-        <section class="grid-con">
+     
+        <section class="hero">
             <h2 class="hidden">Video Section</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                <h3 class="title-desktop">Video</h3>
+            <div class="hero-img">
+                <picture>
+                    <source media="(min-width:1200px)" srcset="images/desk_video.png">
+                    <source media="(min-width:768px)" srcset="images/tab_video.png">
+                    <source media="(min-width:900px)" srcset="images/space_video.png">
+                    <source media="(min-width:510px)" srcset="images/mob_video.png">
+                    <img src="images/mob_video.png" alt="Placeholder image">
+                </picture>
             </div>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box video">
-                <p>Video Player</p>
-            </div>
+
         </section>
-        <section class="grid-con">
-            <h2 class="hidden">About Us Section</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box about-us">
-                <h3>Image and text (ABOUT US)</h3>
+       
+        <section class="hero">
+            <h2 class="hidden">About us Section</h2>
+            <div class="hero-img">
+                <picture>
+                    <source media="(min-width:1200px)" srcset="images/desktop_about_us.png">
+                    <source media="(min-width:768px)" srcset="images/tab_about_us.png">
+                    <source media="(min-width:900px)" srcset="images/space_about_us.png">
+                    <source media="(min-width:510px)" srcset="images/mob_about_us.png">
+                    <img src="images/mob_about_us.png" alt="Placeholder image">
+                </picture>
             </div>
+
         </section>
         <section class="grid-con" id="contact-form">
             <h2 class="hidden">Contact Form Section</h2>

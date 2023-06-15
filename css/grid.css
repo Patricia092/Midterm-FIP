@@ -43,9 +43,7 @@ html {
 /* 2. ---Mobile Library Grid Styles--- */
 
 
-.hero {
-  height: 340px;
-}
+
 
 .flavors {
   height: 250px;
@@ -60,12 +58,6 @@ html {
   margin: 20px;
   font-size: 22px;
 }
-
-.about-us {
-  height: 380px;
-}
-
-
 
 .recipe{ 
   height: 380px;
@@ -196,23 +188,6 @@ html {
 /* 3. ---Tablet Library Grid Styles--- */
 
 @media screen and (min-width: 768px) {
-
-
-  .hero {
-    height: 420px;
-    font-size: 22px;
-  }
-
-  .video {
-    height: 420px;
-    font-size: 22px;
-  }
-
-  .about-us {
-    font-size: 22px;
-  }
-
-  
 
   .footer {
     font-size: 22px;
@@ -428,24 +403,6 @@ html {
     color: #E3DDCF;
   }
 
-  .hero {
-    height: 500px;
-    font-size: 22px;
-  }
-
-  .video {
-    height: 450px;
-    font-size: 32px;
-    margin: 40px;
-  }
-
-  .about-us {
-    font-size: 22px;
-    height: 450px;
-  }
-
-  
-
   .footer {
     font-size: 22px;
   }
@@ -657,26 +614,10 @@ html {
 
 @media screen and (min-width: 1920px) {
 
-  .hero {
-    height: 530px;
-    font-size: 32px;
-  }
-
+  
   .flavors {
     height: 300px;
   }
-
-  .video {
-    height: 500px;
-    font-size: 32px;
-    margin: 40px;
-  }
-
-  .about-us {
-    height: 500px;
-    font-size: 32px;
-  }
-
 
   .footer {
     font-size: 32px;
@@ -699,7 +640,7 @@ html {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-column-gap: 34px;
-    max-width: 1919px;
+    max-width: 1400px;
     margin: 0px auto;
     padding-left: 20px;
     padding-right: 20px;
