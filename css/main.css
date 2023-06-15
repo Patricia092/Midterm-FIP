@@ -5,6 +5,7 @@
     2. Flexbox Items 
     3. Header
     4. Hero slider
+    5. contact Us
 
  */
 
@@ -14,6 +15,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #E3DDCF;
 }
 
 img,
@@ -52,6 +54,12 @@ section p {
     padding-left: 15px;
 }
 
+.title {
+    font-family: "goldich", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
 /* ---End of General Styles--- */
 
 /* 2. Flexbox Items */
@@ -61,12 +69,10 @@ section p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .flexbox-header {
-    background-color: #ffffff;
-    color: black;
     padding: 2px;
     text-align: center;
     width: 100px;
@@ -88,36 +94,139 @@ section p {
     margin-top: 220px;
 }
 
-.flex-container-footer-m-l-xl{
+.flex-container-footer-m-l-xl {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .flexbox-footer-m-l-xl {
-    background-color: #ffffff;
-    color: black;
-    padding: 60px;
+    color: #E3DDCF;
+    padding: 20px;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 50px;
+    text-align: left;
 }
 
 /* ---End of Flexbox Items--- */
 
 /* 3. ---Header--- */
 
+header {
+    background-color: #0A284B;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #0A284B;
+}
+
+.itens {
+    color: #E3DDCF;
+    text-decoration: none;
+    font-family: "goldich", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.icons-space {
+    margin-right: 10px;
+}
+
 .icons {
+    color: #E3DDCF;
     margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
 }
 
 /* ---End of Header--- */
 
-/* 4. Hero slider */
+/* 4. ---Hero slider--- */
 .flavors-color {
     background-color: #E1E1E1;
     padding: 20px;
 }
+
+/* ---End of Hero slider--- */
+
+/* 5. ---Contact Us--- */
+
+
+label {
+    text-align: left;
+}
+
+/* Id Styles */
+
+#contact-form {
+    background-color: #E3DDCF;
+    margin: 80px 0 80px 0;
+}
+
+#contact-text h3 {
+    font-size: 38px;
+    text-align: left;
+    color: #0A284B;
+    margin: 40px 0 0 40px;
+}
+
+#contact-text p {
+    margin: 20px 0 0 40px;
+    font-size: 28px;
+}
+
+#contact-us input,
+textarea {
+    color: #0A284B;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #E3DDCF;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 14px;
+}
+
+#contact-us input[type=submit] {
+    width: 100%;
+    background-color: #0A284B;
+    color: #E3DDCF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    
+    cursor: pointer;
+}
+
+#contact-us input[type=submit]:hover {
+    background-color: #103f74;
+}
+
+/* Class Styles */
+
+.contact-text-style {
+    color: #0A284B;
+    text-align: left;
+    margin: 0;
+}
+
+.contact-us-style {
+    background-color: #E3DDCF;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 1.95px 1.95px 2.6px;
+}
+
 
 /* ---End of Hero slider--- */
