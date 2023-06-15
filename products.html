@@ -36,14 +36,26 @@
     <main>
         <section class="grid-con">
             <h2 class="hidden">Hero Slider Section</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box hero">
-                <p>Hero Image - Flavour of The Month</p>
+            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 hero hero-img">
+                    <picture>
+                        <source media="(min-width:1200px)" src="/images/tab_blue-label_arrow.png">
+                        <source media="(min-width:768px)" src="/images/tab_blue-label_arrow.png">
+                        <source media="(min-width:510px)" src="/images/mob_blue-label_arrow.png">
+                        <img src="./images/tab_blue-label_arrow.png" alt="Placeholder image">
+                    </picture>
             </div>
         </section>
         <section class="grid-con flavors-color">
             <h2 class="hidden">Variety Pack Section</h2>
             <div class="col-span-4 m-col-span-6 l-col-span-4 xl-col-span-4 box flavors variety">
-                <p>Variety Pack - slideshow</p>
+                <div class="hero-img">
+                    <picture>
+                        <source media="(min-width:1200px)" src="/images/tab-promo-variety.png">
+                        <source media="(min-width:768px)" src="/images/tab-promo-variety.png">
+                        <source media="(min-width:510px)" src="/images/mob-promo-variety.png">
+                        <img src="./images/mob-promo-variety.png" alt="Placeholder image">
+                    </picture>
+                </div>
             </div>
             <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6 box flavors tablet variety">
                 <p>Bundle 1</p>
