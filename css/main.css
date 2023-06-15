@@ -64,6 +64,11 @@ section p {
 
 /* 2. Flexbox Items */
 
+
+.hero-img img {
+    width: 100%;
+}
+
 .flex-container-header {
     margin: 0 auto;
     display: flex;
@@ -206,7 +211,7 @@ textarea {
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    
+
     cursor: pointer;
 }
 
