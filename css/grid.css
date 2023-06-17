@@ -39,11 +39,30 @@ html {
   margin-bottom: 10px;
 }
 
+.nav-bar{
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+  
+}
+
 
 /* 2. ---Mobile Library Grid Styles--- */
 
 
+.blue-title {
+  margin-top: 50px;
+  color: #0A284B;
+  font-size: 46px;
+  text-align: center;
+}
 
+.video-title {
+  margin-top: 40px;
+  color: #0A284B;
+  font-size: 46px;
+  text-align: center;
+}
 
 .flavors {
   height: 250px;
@@ -53,26 +72,9 @@ html {
   font-size: 22px;
 }
 
-.video {
-  height: 250px;
-  margin: 20px;
-  font-size: 22px;
-}
-
-.recipe{ 
-  height: 380px;
-}
 
 .footer {
   height: 380px;
-}
-
-.reviews {
-  height: 300px;
-  text-align: center;
-  background-color: white;
-  color: black;
-  font-size: 22px;
 }
 
 .flavor-products {
@@ -188,6 +190,16 @@ html {
 /* 3. ---Tablet Library Grid Styles--- */
 
 @media screen and (min-width: 768px) {
+
+  .blue-title {
+    margin: 40px 0 40px 0;
+    font-size: 50px;
+  }
+
+  .video-title {
+    margin: 80px 0 10px 0;
+    font-size: 50px;
+  }
 
   .footer {
     font-size: 22px;
@@ -397,6 +409,15 @@ html {
 
 @media screen and (min-width: 1200px) {
 
+  .blue-title {
+    margin: 70px 0 40px 0;
+    font-size: 52px;
+  }
+
+  .video-title {
+    margin: 90px 0 20px 0;
+    font-size: 50px;
+  }
 
   .title-desktop {
     font-size: 32px;

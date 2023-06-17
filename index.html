@@ -16,10 +16,10 @@
     <header>
         <div class="grid-con">
             <h2 class="hidden">Header</h2>
-            <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-4 l-col-span-2 xl-col-span-2 box">
-                <img src="images/zima-wordmark.svg" alt="ZIMA logo">
+            <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-4 l-col-span-2 xl-col-span-2">
+                <img src="images/zima-wordmark.svg" alt="ZIMA logo" width="100" height="80">
             </div>
-            <nav class="col-start-4 col-end-4 m-col-start-11 m-col-end-13 l-col-span-10 xl-col-span-10 box">
+            <nav class="col-start-4 col-end-4 m-col-start-11 m-col-end-13 l-col-span-10 xl-col-span-10 nav-bar">
                 <div class="flex-container-header desktop">
                     <div class="flexbox-header desktop itens">Home</div>
                     <div class="flexbox-header desktop itens">About Us</div>
@@ -29,29 +29,27 @@
                         <i class="fa-solid fa-magnifying-glass icons-space"></i>
                         <i class="fa-solid fa-user icons-space"></i>
                         <i class="fa-solid fa-cart-shopping icons-space"></i>
-
                     </div>
                 </div>
             </nav>
         </div>
-
     </header>
     <main>
         <section class="hero">
             <div class="hero-img">
                 <picture>
-                    <source media="(min-width:1200px)" srcset="images/desk_blue-label.png">
-                    <source media="(min-width:768px)" srcset="images/tab_blue-label.png">
-                    <source media="(min-width:900px)" srcset="images/space_blue-label.png">
-                    <source media="(min-width:510px)" srcset="images/mob_blue_label.png">
-                    <img src="images/mob_blue_label.png" alt="Placeholder image">
+                    <source media="(min-width:1200px)" srcset="images/desk_hero_home.png">
+                    <source media="(min-width:768px)" srcset="images/tab_hero_home.png">
+                    <source media="(min-width:900px)" srcset="images/space_hero_home.png">
+                    <source media="(min-width:510px)" srcset="images/mob_hero_home.png">
+                    <img src="images/mob_hero_home.png" alt="Placeholder image">
                 </picture>
             </div>
 
         </section>
 
         <section class="hero">
-            <h2 class="hidden">Featured Flavors Section</h2>
+            <h2 class="blue-title">Featured Flavors</h2>
             <div class="hero-img">
                 <picture>
                     <source media="(min-width:1200px)" srcset="images/des-home-feat.png">
@@ -61,11 +59,10 @@
                     <img src="images/mob-home-feat.png" alt="Placeholder image">
                 </picture>
             </div>
-
         </section>
-        
+
         <section class="hero">
-            <h2 class="hidden">Video Section</h2>
+            <h2 class="video-title">Trending ZIMA Drinks</h2>
             <div class="hero-img">
                 <picture>
                     <source media="(min-width:1200px)" srcset="images/desk_video.png">
@@ -78,24 +75,23 @@
 
         </section>
 
-        <section class="hero">
+        <section class="hero about-us">
             <h2 class="hidden">About us Section</h2>
             <div class="hero-img">
                 <picture>
-                    <source media="(min-width:1200px)" srcset="images/desktop_about_us.png">
+                    <source media="(min-width:1200px)" srcset="images/desk_about_us.png">
                     <source media="(min-width:768px)" srcset="images/tab_about_us.png">
                     <source media="(min-width:900px)" srcset="images/space_about_us.png">
                     <source media="(min-width:510px)" srcset="images/mob_about_us.png">
                     <img src="images/mob_about_us.png" alt="Placeholder image">
                 </picture>
             </div>
-
         </section>
         <section class="grid-con" id="contact-form">
             <h2 class="hidden">Contact Form Section</h2>
-            <div class="col-span-4 m-col-span-12 l-col-span-6 xl-col-span-6  desktop">
+            <div class="col-span-4 m-col-span-12 l-col-span-6 xl-col-span-6">
                 <section id="contact-text" class="contact-text-style">
-                    <h3 class="title">We'd Love to Hear From You!</h3>
+                    <h3 class="blue-title">We'd Love to Hear From You!</h3>
                     <p>Please, contact us if you have any questions, comments, or concerns... </p>
                 </section>
             </div>
@@ -122,7 +118,7 @@
             <h2 class="hidden">Footer</h2>
             <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box footer">
                 <div class="flex-container-footer-mobile">
-                    <div class="flexbox-footer-mobile mobile title">
+                    <div class="flexbox-footer-mobile mobile">
                         <p>Facilisis<br>
                             Magna<br>
                             Etiam <br>
@@ -132,8 +128,9 @@
                     </div>
                 </div>
                 <div class="flex-container-footer-m-l-xl">
-                    <div class="flexbox-footer-m-l-xl tablet title">Logo</div>
-                    <div class="flexbox-footer-m-l-xl tablet title">
+                    <div class="flexbox-footer-m-l-xl tablet"><img src="images/zima-wordmark.svg" alt="ZIMA logo"
+                            width="150" height="80"></div>
+                    <div class="flexbox-footer-m-l-xl tablet">
                         <p>Facilisis<br>
                             Magna<br>
                             Etiam <br>
@@ -141,7 +138,7 @@
                             orci
                         </p>
                     </div>
-                    <div class="flexbox-footer-m-l-xl tablet title">
+                    <div class="flexbox-footer-m-l-xl tablet">
                         <p>
                             Sed ut<br>
                             perspiciatis<br>
@@ -150,7 +147,7 @@
                             error
                         </p>
                     </div>
-                    <div class="flexbox-footer-m-l-xl tablet title">
+                    <div class="flexbox-footer-m-l-xl tablet">
                         <p>
                             Consectetur<br>
                             Adipiscing elit<br>
@@ -161,8 +158,9 @@
                     </div>
                 </div>
                 <div class="flex-container-footer-m-l-xl">
-                    <div class="flexbox-footer-m-l-xl desktop title">Logo</div>
-                    <div class="flexbox-footer-m-l-xl desktop title">
+                    <div class="flexbox-footer-m-l-xl desktop"><img src="images/zima-wordmark.svg" alt="ZIMA logo"
+                            width="200" height="80"></div>
+                    <div class="flexbox-footer-m-l-xl desktop">
                         <p>Facilisis<br>
                             Magna<br>
                             Etiam <br>
@@ -170,7 +168,7 @@
                             orci
                         </p>
                     </div>
-                    <div class="flexbox-footer-m-l-xl desktop title">
+                    <div class="flexbox-footer-m-l-xl desktop">
                         <p>
                             Sed ut<br>
                             perspiciatis<br>
@@ -179,7 +177,7 @@
                             error
                         </p>
                     </div>
-                    <div class="flexbox-footer-m-l-xl desktop title">
+                    <div class="flexbox-footer-m-l-xl desktop">
                         <p>
                             Consectetur<br>
                             Adipiscing elit<br>
