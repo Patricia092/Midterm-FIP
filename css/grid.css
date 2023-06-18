@@ -40,18 +40,15 @@ html {
 }
 
 .nav-bar{
-  padding: 10px;
-  text-align: center;
   margin-top: 15px;
   
 }
 
 .nav-bar-tablet {
-  padding: 10px 5px 5px 5px;
+  
   text-align: center;
   margin-top: 15px;
 }
-
 
 /* 2. ---Mobile Library Grid Styles--- */
 
