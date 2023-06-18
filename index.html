@@ -24,45 +24,44 @@
                     <img src="images/zima-wordmark.svg" alt="ZIMA logo" width="100" height="70">
                 </a>
             </div>
-
             <article class="col-start-4 col-end-4 m-col-start-11 m-col-end-13 l-col-span-10 xl-col-span-10 desktop">
-                <h3 class="hidden">Header Navbar</h3>
+                <h3 class="hidden">Header Navbar Desktop</h3>
                 <nav class="flex-container-header desktop">
-                    <h4 class="hidden">Header Navigation</h4>
+                    <h4 class="hidden">Header Navigation Desktop</h4>
                     <ul class="ul-nav li-animation">
                         <li class="flexbox-header desktop itens"><a href="index.html">Home</a></li>
                         <li class="flexbox-header desktop itens"><a href="#">About Us</a></li>
                         <li class="flexbox-header desktop itens"><a href="products.html">Products</a></li>
                         <li class="flexbox-header desktop itens"><a href="#">Recipes</a></li>
                     </ul>
-                    <div class="icons">
+                    <ul class="icons">
                         <li><a href="#"><i class="fa-solid fa-magnifying-glass icons-space"></i></a></li>
                         <li><a href="#"><i class="fa-solid fa-user icons-space"></i></a></li>
                         <li><a href="#"><i class="fa-solid fa-cart-shopping icons-space"></i></a></li>
-                    </div>
+                    </ul>
                 </nav>
             </article>
-            <article  class="col-start-4 col-end-4 m-col-start-3 m-col-end-12 l-col-span-10 xl-col-span-10 nav-bar-tablet tablet">
-                <h3 class="hidden">Header Navbar</h3>
+            <article
+                class="col-start-4 col-end-4 m-col-start-3 m-col-end-12 l-col-span-10 xl-col-span-10 nav-bar-tablet tablet">
+                <h3 class="hidden">Header Navbar Tablet</h3>
                 <nav class="flex-container-header tablet">
-                    <h4 class="hidden">Header Navigation</h4>
+                    <h4 class="hidden">Header Navigation Tablet</h4>
                     <ul class="ul-nav-tablet li-animation-tablet">
                         <li class="flexbox-header tablet itens"><a href="index.html">Home</a></li>
                         <li class="flexbox-header tablet itens"><a href="#">About Us</a></li>
                         <li class="flexbox-header tablet itens"><a href="products.html">Products</a></li>
                         <li class="flexbox-header tablet itens"><a href="#">Recipes</a></li>
                     </ul>
-                    <div class="icons-tablet">
+                    <ul class="icons-tablet">
                         <li><a href="#"><i class="fa-solid fa-magnifying-glass icons-space"></i></a></li>
                         <li><a href="#"><i class="fa-solid fa-user icons-space"></i></a></li>
                         <li><a href="#"><i class="fa-solid fa-cart-shopping icons-space"></i></a></li>
-                    </div>
+                    </ul>
                 </nav>
             </article>
-
             <!-- Mobile Menu -->
             <div class="mobile">
-                <input type="checkbox" id="overlay-input" />
+                <input type="checkbox" id="overlay-input">
                 <label for="overlay-input" id="overlay-button"><span></span></label>
                 <div id="overlay">
                     <ul>
@@ -77,13 +76,14 @@
     </header>
     <main>
         <section class="hero">
+            <h2 class="hidden">Hero Image</h2>
             <div class="hero-img">
                 <picture>
                     <source media="(min-width:1200px)" srcset="images/desk_hero_home.png">
                     <source media="(min-width:768px)" srcset="images/tab_hero_home.png">
                     <source media="(min-width:900px)" srcset="images/space_hero_home.png">
                     <source media="(min-width:510px)" srcset="images/mob_hero_home.png">
-                    <img src="images/mob_hero_home.png" alt="Placeholder image">
+                    <img src="images/mob_hero_home.png" alt="Hero image">
                 </picture>
             </div>
 
@@ -97,7 +97,7 @@
                     <source media="(min-width:768px)" srcset="images/tab-home-feat.png">
                     <source media="(min-width:900px)" srcset="images/des-spacer-home-feat.png">
                     <source media="(min-width:510px)" srcset="images/mob-home-feat.png">
-                    <img src="images/mob-home-feat.png" alt="Placeholder image">
+                    <img src="images/mob-home-feat.png" alt="Featured Flavors">
                 </picture>
             </div>
         </section>
@@ -110,7 +110,7 @@
                     <source media="(min-width:768px)" srcset="images/tab_video.png">
                     <source media="(min-width:900px)" srcset="images/space_video.png">
                     <source media="(min-width:510px)" srcset="images/mob_video.png">
-                    <img src="images/mob_video.png" alt="Placeholder image">
+                    <img src="images/mob_video.png" alt="Trending ZIMA Drinks">
                 </picture>
             </div>
 
@@ -124,7 +124,7 @@
                     <source media="(min-width:768px)" srcset="images/tab_about_us.png">
                     <source media="(min-width:900px)" srcset="images/space_about_us.png">
                     <source media="(min-width:510px)" srcset="images/mob_about_us.png">
-                    <img src="images/mob_about_us.png" alt="Placeholder image">
+                    <img src="images/mob_about_us.png" alt="About us Section">
                 </picture>
             </div>
         </section>
@@ -137,8 +137,8 @@
                 </section>
             </div>
             <div class="col-span-4 m-col-start-3 m-col-end-11 l-col-span-6 xl-col-span-6">
-                <h3 class="hidden">Contact Us Form</h3>
                 <section id="contact-us" class="contact-us-style">
+                    <h3 class="hidden">Contact Us Form</h3>
                     <form method="POST">
                         <label for="fname">Name*</label>
                         <input name="fullName" type="text" id="fname" placeholder="Your full name">

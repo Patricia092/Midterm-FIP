@@ -1,11 +1,13 @@
 /* 
     CSS Guide 
 
-    1.  General Styles (Normalize)
+    1. General Styles (Normalize)
     2. Flexbox Items 
     3. Header
-    4. Hero slider
-    5. contact Us
+    4. Mobile Menu
+    5. Hero slider
+    6. About Us
+    7. contact Us
 
  */
 
@@ -32,6 +34,11 @@ h2,
 h3,
 h4,
 h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
     margin: 0px;
     padding: 0px;
 }
@@ -67,37 +74,10 @@ section p {
 }
 
 
-
 /* ---End of General Styles--- */
 
 /* 2. Flexbox Items */
 
-
-.hero {
-    margin: 0 0;
-}
-
-.hero-img img {
-    width: 100%;
-}
-
-.hero-img {
-    display: grid;
-    grid-column: span 2;
-    margin-bottom: 2em;
-}
-
-.hero-img>* {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.about-us {
-    margin: 4em 0 4em 0;
-}
-
-
-/* above hero */
 
 .flex-container-header {
     margin: 0 auto;
@@ -143,7 +123,9 @@ section p {
     text-align: left;
 }
 
+
 /* ---End of Flexbox Items--- */
+
 
 /* 3. ---Header--- */
 
@@ -181,7 +163,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    margin-top: 4px;
+    margin-top: 26px;
 }
 
 .icons-tablet {
@@ -190,9 +172,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    margin-bottom: 8px;
+    margin-top: 10px;
 }
-
 
 .header-nav {
 	text-align: center;
@@ -213,6 +194,7 @@ footer {
 	align-items: center;
 	list-style-type: none;
     margin-top: 5px;
+    padding: 0;
     
 }
 
@@ -281,10 +263,10 @@ a:hover i {
 }
 
 
+/* ---End of Header--- */
 
 
-
-/* 2. ---Mobile Menu--- */
+/* 4. ---Mobile Menu--- */
 
 @keyframes bugfix {
     from {
@@ -348,7 +330,7 @@ a:hover i {
 #overlay-button:hover span,
 #overlay-button:hover span:before,
 #overlay-button:hover span:after {
-    background: #b7b7b4;
+    background: #c5b065;
 }
 
 input[type=checkbox] {
@@ -411,28 +393,54 @@ input[type=checkbox]:checked~#overlay-button span:after {
 }
 
 #overlay ul li a:hover {
-    color: #a0a0a0;
+    color: #c5b065;
 }
-
-
-
 
 
 /* ---End of Header--- */
 
-/* 4. ---Hero slider--- */
+/* 5. ---Hero Image--- */
+
+.hero {
+    margin: 0 0;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-img {
+    display: grid;
+    grid-column: span 2;
+    margin-bottom: 2em;
+}
+
+.hero-img>* {
+    grid-column: 1;
+    grid-row: 1;
+}
 
 
-/* ---End of Hero slider--- */
+/* ---End of Hero Image--- */
 
-/* 5. ---Contact Us--- */
+
+/* 6. ---About Us--- */
+
+
+.about-us {
+    margin: 4em 0 4em 0;
+}
+
+
+/* ---End of About Us--- */
+
+
+/* 7. ---Contact Us--- */
 
 
 label {
     text-align: left;
 }
-
-/* Id Styles */
 
 #contact-form {
     background-color: #E3DDCF;
@@ -467,8 +475,6 @@ textarea {
     background-color: #103f74;
 }
 
-/* Class Styles */
-
 .contact-text-style {
     color: #0A284B;
     text-align: left;
@@ -482,5 +488,6 @@ textarea {
 }
 
 
-/* ---End of Hero slider--- */
+/* ---End of Contact Us--- */
+
 

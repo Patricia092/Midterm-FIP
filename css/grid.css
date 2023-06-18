@@ -688,7 +688,6 @@ html {
     height: 520px;
   }
 
-
   .full-width-grid-con {
     display: grid;
     grid-template-columns: 1fr minmax(0, 1920px) 1fr;
